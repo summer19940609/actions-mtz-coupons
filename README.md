@@ -108,3 +108,5 @@ Github Actions 工作流支持**手动**与**自动**两种触发方式。
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=vv314/actions-mtz-coupons&type=Date)](https://star-history.com/#vv314/actions-mtz-coupons&Date)
+
+1
