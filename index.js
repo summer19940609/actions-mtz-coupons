@@ -62,7 +62,7 @@ function sendUserNotify({ status, message, account, userInfo }) {
   const result = []
   const userName = userInfo.nickName
   const title = `${NOTIFY_TITLE}${status == 'success' ? '😋' : '😥'}`
-
+  message = '\n' + message;
   if (account.barkKey) {
     const qywxRes = notifier
       .sendBark(title, message, { key: account.barkKey })
